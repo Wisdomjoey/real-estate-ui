@@ -5,7 +5,7 @@ function Footer() {
 		<footer className="bg-theme_black pt-24 text-sm text-[white]">
 			<div className="max-w-[1200px] w-[90%] mx-auto">
 				<div className="flex sm:flex-col sm:items-start items-center gap-16 pb-9">
-					<div className="min-w-[300px]">
+					<div className="min-w-[230px]">
 						<h1 className="font-bold text-3xl">JAY Z</h1>
 
 						<p className="my-9 font-light text-[lightgray]">Investing in you future one home at a time</p>

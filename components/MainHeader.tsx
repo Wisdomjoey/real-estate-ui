@@ -46,7 +46,7 @@ function MainHeader() {
 										}}
 										className={`flex-1 text-sm min-w-fit ${
 											ind === 1
-												? "border-l-2 border-r-2 pl-[60px] xs:pl-[20px] xs:pr-[15px] xs:mr-[15px] pr-[30px] mr-[30px]"
+												? "border-l-2 border-r-2 pl-[60px] xs:pl-[20px] xs:pr-[12px] xs:mr-[12px] pr-[30px] mr-[30px]"
 												: "border-none px-[30px] xs:px-[15px]"
 										}`}
 									>
