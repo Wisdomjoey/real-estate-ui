@@ -5,7 +5,7 @@ function Footer() {
 		<footer className="bg-theme_black pt-24 text-sm text-[white]">
 			<div className="max-w-[1200px] w-[90%] mx-auto">
 				<div className="flex sm:flex-col sm:items-start items-center gap-16 pb-9">
-					<div className="min-w-[230px]">
+					<div className="flex-1 w-full">
 						<h1 className="font-bold text-3xl">JAY Z</h1>
 
 						<p className="my-9 font-light text-[lightgray]">Investing in you future one home at a time</p>
@@ -14,14 +14,14 @@ function Footer() {
 							<input
 								type="text"
 								placeholder="Enter your email"
-								className="border-none bg-[transparent] outline-none h-full flex-1 ml-2"
+								className="border-none bg-[transparent] outline-none h-full w-full ml-2"
 							/>
 
 							<Button text="Subscribe" bg="bg-theme_blue" />
 						</div>
 					</div>
 
-					<div className="flex-1 flex flex-wrap gap-7">
+					<div className="flex-[3] flex flex-wrap gap-7">
 						{[
 							{
 								head: "Quick Menu",

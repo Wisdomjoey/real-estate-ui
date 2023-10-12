@@ -31,7 +31,7 @@ function MainHeader() {
 							/>
 						</div>
 
-						<div className="bg-bg2 w-full rounded-xl flex sm:flex-col items-center justify-between gap-10 p-[30px] xs:px-[15px] -mb-[54px] shadow-[0px_25px_45px_5px_rgba(0,0,0,0.1)]">
+						<div className="bg-bg2 w-full rounded-xl flex sm:flex-col items-center justify-between gap-10 p-[30px] xs:px-0 -mb-[54px] shadow-[0px_25px_45px_5px_rgba(0,0,0,0.1)]">
 							<div className="flex items-center flex-1 sm:w-full">
 								{[
 									{ head: "Location", text: "Nigeria" },
@@ -46,7 +46,7 @@ function MainHeader() {
 										}}
 										className={`flex-1 text-sm min-w-fit ${
 											ind === 1
-												? "border-l-2 border-r-2 pl-[60px] xs:pl-[20px] xs:pr-[12px] xs:mr-[12px] pr-[30px] mr-[30px]"
+												? "border-l-2 border-r-2 pl-[60px] xs:pl-[15px] xs:pr-[15px] xs:mr-0 pr-[30px] mr-[30px]"
 												: "border-none px-[30px] xs:px-[15px]"
 										}`}
 									>

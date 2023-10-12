@@ -8,7 +8,7 @@ function Reviews() {
 		<div className="bg-bg2 py-24">
 			<div className="max-w-[1200px] w-[90%] mx-auto">
 				<div className="flex flex-col justify-center items-center gap-12">
-					<h2 className="text-3xl xs:2xl capitalize font-medium w-[70%] text-center">
+					<h2 className="text-3xl xs:2xl xs:w-[85%] capitalize font-medium w-[70%] text-center">
 						kind words from our happy customers
 					</h2>
 
